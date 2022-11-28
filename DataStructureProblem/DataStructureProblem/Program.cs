@@ -18,6 +18,12 @@
                     OrderListcs orderList = new OrderListcs();
                     orderList.ReadFile(filepaths);
                     break;
+                case 3:
+                    string Balancefilepath = "C:\\Users\\hp\\Desktop\\newFolder\\DataStructureProblem\\DataStructureProblem\\DataStructureProblem\\StackBalance.txt";
+                    BalancedParanthesiss balancedParanthesiss = new BalancedParanthesiss();
+                    balancedParanthesiss.ReadFile(Balancefilepath);
+
+                    break;
             }
         }
     }
