@@ -29,7 +29,14 @@
                     Bank.SetterAccountBalance(10000);
                     Bank.MultiPersonUse(); 
                     break;
-               
+                case 5:
+                    Hashing hashing = new Hashing();
+                    string filehash = "C:\\Users\\hp\\Desktop\\newFolder\\DataStructureProblem\\DataStructureProblem\\DataStructureProblem\\hashingdata.txt";
+                    hashing.ReadTxtFile(filehash);
+                    hashing.Operation();
+                    hashing.DisplayLinkedlist();
+                    break;
+
 
             }
         }
