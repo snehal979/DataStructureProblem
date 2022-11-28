@@ -24,6 +24,13 @@
                     balancedParanthesiss.ReadFile(Balancefilepath);
 
                     break;
+                case 4:
+                    CashCounter Bank = new CashCounter();
+                    Bank.SetterAccountBalance(10000);
+                    Bank.MultiPersonUse(); 
+                    break;
+               
+
             }
         }
     }
